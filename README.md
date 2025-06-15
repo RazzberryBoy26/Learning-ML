@@ -1,2 +1,8 @@
-# Learning-ML
-I'll be tracking my Machine Learning journey here. I'll try to explain what I've learnt in a simple and short manner - the math, the code and how it all relates with the intuition behind it. In on we go...
+# 1st Week 
+## Aims for the week:
+1. Learn and implement (and explore) Batch Gradient Descent for Linear regression. (ongoing)
+2. Learn and implement (and explore) Stochastic Gradient Descent for Linear regression. (ongoing)
+3. Learn and implement (and explore) the Normal Equations for Linear Regression. (ongoing)
+4. Play around a bit with the python libraries. (ongoing)
+
+## Here we go :p
