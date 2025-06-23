@@ -3,7 +3,7 @@ Would like to share my experience regarding implementing the algorithm for stoch
 
 # Some mistakes, and what I learned from them:
 1. First set the learning rate to be too high, saw it resulted in nan or inf values. Or just not at all accurate convergent points. A good learning rate is essential to get a fair convergent value.
-2. That didn't solve the issue either :,). The problem lied in the fact that the learning rate caused high variance over iterating through each epoch, making each move of the theta vector rather random.
+2. That didn't solve the issue either :,). The problem lied in the fact that the constant learning rate caused high variance over iterating through each epoch, making each move of the theta vector rather random.
     ## A brief explanation:
     The explanation can be given by the fact that the "noisiness/randomness" of the movement of theta vector is heavily dependent on the magnitude of learning rate. If the learning rate is kept constant and not decreased as we go on, the variance over iterations through all epochs will remain constant and large, causing a huge number of steps to be required for theta to converge, since overshooting will be prominent. I solved the problem by decrementing the learning rate after each epoch by a factor of 0.9 (calling it the decay constant for now), which caused the vector to settle at a good global minimum point in the hyperplane.
 3. Learned how to play around with a particular row or a column of any given matrix, since row vectors are required to compute the gradient in sgd.
