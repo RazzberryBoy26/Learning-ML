@@ -19,4 +19,6 @@ I would like to share my experience with everyone whilst doing the implementatio
 1. Is there a way to bound our convergence point between some given values? I feel this might be possible using partial derivatives and some more calculus. Will try to come up with an algorithm for the same.
 2. Can I speed up any gradient descent algorithm by first implementing SGD(Stochastic Gradient Descent), then implementing BGD(Batch Gradient Descent)? The first few steps being noisy but fast approaching the convergence point, the next steps being more accurate, stable and closer to the convergence point. Will try to implement this as well.
 
+## Refer to bgd.ipynb for code.
+
 Thank you for sticking around :)
