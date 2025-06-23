@@ -6,3 +6,7 @@ This was more of a playful session, wherein I explored the numpy, pandas and mat
 2. Many commands, methods and functions that can be used to perform operations on the data of a particular dataset.
 3. What are mandelbrot sets, and how fractals differ (just some random math :p).
 4. Matrix manipulation, and other numpy operations.
+
+## Refer to plotting1.ipynb and convergence.ipynb for code.
+
+Thank you for sticking around :))
