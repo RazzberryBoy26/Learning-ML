@@ -16,7 +16,7 @@ The batch gradient descent algorithm requires setting a suitable combination of 
     3. The $\alpha$ and n are very much suitable to approach the limit, and good convergence is seen with each t.
 
 4. To get an interval matrix which contains the limit for $\vec{\theta}$ vector, we consider the direction of approach/the trajectory of $\theta_{j}$ $\forall$ j $\in$ [0, N] individually. Plotting a graph between sequence counter t and $\theta^{t}_{j}$, we see that for initial t, the direction of $\theta_{j}$ is monotonic (either purely increasing or decreasing, as established already in point 2).
-    **The direction of $\theta_{j}$ at some t is defined as $\theta^{t + 1}_{j}$ - $\theta^{t}_{j}$**
+    ** The direction of $\theta_{j}$ at some t is defined as $\theta^{t + 1}_{j}$ - $\theta^{t}_{j}$ **
 
 5. To find a bound for the limit of $\theta_{j}$, we will find the first occurence of sign change.
     **This matters because this $t = l^{th}$ sequence counter will now serve as our first bounding value.**
