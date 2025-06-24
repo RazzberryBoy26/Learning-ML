@@ -1,0 +1,3 @@
+# What I aim to do:
+The batch gradient descent algorithm requires setting a suitable combination of the number of iterations(n) and the learning rate(alpha) to get our required convergence point over any convex quadratic cost function. To set these values is generally a matter of trial and error. Using the proposed algorithm, we may be able to bind the analytic convergence point for any parameter between two values. This allows us to get an estimate of where the convergence point might lie, and henceforth, giving us a rough idea for setting n and alpha suitably. The overall trial and error process will be sped up many fold.
+
