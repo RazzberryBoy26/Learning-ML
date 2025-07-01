@@ -6,3 +6,5 @@
 4. Implement the algorithm for bounding the convergence value for theta vector via batch gradient descent. (partially completed, view the intuition behind algorithm at https://github.com/RazzberryBoy26/Learning-ML/blob/Week-2/convergent_bound_bgd.ipynb)
 
 Here we go :p
+
+Um guys. Sorry I wasn't able to upload much last week. There was a family emergency and I was busy travelling due to that. Will upload everything this week itself!
